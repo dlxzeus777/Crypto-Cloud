@@ -21,6 +21,7 @@ import nftartist from './assets/nftartist.svg'
 
 export const nftCards = [
     {
+        id: 1,
         name: 'Classic Jester #1672',
         image: nft1,
         user: '@apecreator',
@@ -28,6 +29,7 @@ export const nftCards = [
         eth: 1.25
     },
     {
+        id: 2,
         name: 'Bored Ape #1789',
         image: nft2,
         user: '@larvartist',
@@ -35,6 +37,7 @@ export const nftCards = [
         eth: 0.52
     },
     {
+        id: 3,
         name: 'Teddy Bear #1223',
         image: nft3,
         user: '@apecreator',
@@ -42,6 +45,7 @@ export const nftCards = [
         eth: 0.75
     },
     {
+        id: 4,
         name: 'Gold Monkey #1834',
         image: nft4,
         user: '@larvartist',
@@ -49,6 +53,7 @@ export const nftCards = [
         eth: 1
     },
     {
+        id: 5,
         name: 'Mr. Noir #563',
         image: nft5,
         user: '@hypebeast',
@@ -56,6 +61,7 @@ export const nftCards = [
         eth: 1.8
     },
     {
+        id: 6,
         name: 'Epic Hero #2893',
         image: nft6,
         user: '@larvartist',
@@ -63,6 +69,7 @@ export const nftCards = [
         eth: 2.9
     },
     {
+        id: 7,
         name: 'Lion Legends #1223',
         image: nft7,
         user: '@nftartist',
@@ -70,6 +77,7 @@ export const nftCards = [
         eth: 1.2
     },
     {
+        id: 8,
         name: 'Ayomi #1273',
         image: nft8,
         user: '@larvartist',
@@ -77,6 +85,7 @@ export const nftCards = [
         eth: 5.5
     },
     {
+        id: 9,
         name: 'Big Cats #136',
         image: nft9,
         user: '@apecreator',
@@ -84,6 +93,7 @@ export const nftCards = [
         eth: 4
     },
     {
+        id: 10,
         name: 'Bored Ape #1703',
         image: nft10,
         user: '@hypebeast',
@@ -91,6 +101,7 @@ export const nftCards = [
         eth: 80
     },
     {
+        id: 11,
         name: 'Classic Jester #23',
         image: nft11,
         user: '@nftartist',
@@ -98,6 +109,7 @@ export const nftCards = [
         eth: 5.4
     },
     {
+        id: 12,
         name: 'Crypto Pioneer #023',
         image: nft12,
         user: '@larvartist',
@@ -105,6 +117,7 @@ export const nftCards = [
         eth: 3.1
     },
     {
+        id: 13,
         name: 'Classic Jester #23',
         image: nft13,
         user: '@nftartist',
@@ -112,6 +125,7 @@ export const nftCards = [
         eth: 3.5
     },
     {
+        id: 14,
         name: 'Floating in Space #136',
         image: nft14,
         user: '@larvartist',
@@ -119,6 +133,7 @@ export const nftCards = [
         eth: 1
     },
     {
+        id: 15,
         name: 'Bored Ape #136',
         image: nft15,
         user: '@apecreator',
@@ -126,6 +141,7 @@ export const nftCards = [
         eth: 12
     },
     {
+        id: 16,
         name: 'Big Cats #136',
         image: nft16,
         user: '@hypebeast',

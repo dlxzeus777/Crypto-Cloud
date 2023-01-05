@@ -223,7 +223,7 @@ nav{
 .marketplace-heading
 {
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 8rem;
 }
 .cards
 {
@@ -292,24 +292,14 @@ nav{
     color: #6752e1;
     transition: all .2s linear;
 }
-.overlay
-{
-    opacity: 1;
-}
-.overlay:hover
-{
-    opacity: .3;
-    position: relative;
-    cursor: pointer;
-}
-.eye
-{
+.bid{
     position: absolute;
-    top: 40%;
-    position: absolute;
+    top: 13rem;
     left: 50%;
-    transform: translate(-50%, 0);
-    font-size: 5rem;
+    transform: translate(-50%, -50%);
+    padding: 1rem;
+    border: 1px solid white;
+    border-radius: 7px;
 }
 
 @media (max-width: 930px)
@@ -331,6 +321,12 @@ nav{
     grid-column-start: 1;
     grid-column-end: 1;
 }
+}
+@media (max-width: 410px)
+{
+    .bid{
+        font-size: .75rem;
+    }
 }
 @media (max-width: 340px)
 {
