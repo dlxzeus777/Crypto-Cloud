@@ -6,6 +6,7 @@ import Cryptocurrency from './components/Cryptocurrency';
 import Marketplace from './components/Marketplace';
 import { nftCards } from './data'
 import { Routes, Route } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom'
 
 const App = () => {
 
@@ -13,12 +14,14 @@ const App = () => {
 
     return (
         <>
-            <Header />
-            <Routes>
-                <Route path='/' element={<Home />} />
-                <Route path='/cryptocurrency' element={<Cryptocurrency />} />
-                <Route path='/marketplace' element={<Marketplace nfts={nfts}/>} />
-            </Routes>
+            <BrowserRouter>
+                <Header />
+                <Routes>
+                    <Route path='/home' element={<Home />} />
+                    <Route path='/cryptocurrency' element={<Cryptocurrency />} />
+                    <Route path='/marketplace' element={<Marketplace nfts={nfts} />} />
+                </Routes>
+            </BrowserRouter>
         </>
     )
 }

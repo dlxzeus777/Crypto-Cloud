@@ -14,6 +14,7 @@ body
 {
     background: linear-gradient(89.84deg,#505bda 1.44%,#6752e1 20.14%,#8446eb 58.06%,#985af2 84.04%,#bf81ff 99.45%);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent
 }
 .nav-list
