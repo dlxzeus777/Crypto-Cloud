@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Crypto-Cloud/static/css/main.906f0871.css",
-    "main.js": "/Crypto-Cloud/static/js/main.11475bad.js",
+    "main.js": "/Crypto-Cloud/static/js/main.e8f93fad.js",
     "static/media/hero.svg": "/Crypto-Cloud/static/media/hero.e4ca1ff3e7a456646e47f613d4bdb836.svg",
     "static/media/larvartist.svg": "/Crypto-Cloud/static/media/larvartist.89ea089526db1e07f5996e15ee80d112.svg",
     "static/media/nft14.png": "/Crypto-Cloud/static/media/nft14.b1e3c8506f63c300751d.png",
@@ -30,10 +30,10 @@
     "static/media/hypebeast.svg": "/Crypto-Cloud/static/media/hypebeast.ad8897afe03c53ea8792997ca0084588.svg",
     "index.html": "/Crypto-Cloud/index.html",
     "main.906f0871.css.map": "/Crypto-Cloud/static/css/main.906f0871.css.map",
-    "main.11475bad.js.map": "/Crypto-Cloud/static/js/main.11475bad.js.map"
+    "main.e8f93fad.js.map": "/Crypto-Cloud/static/js/main.e8f93fad.js.map"
   },
   "entrypoints": [
     "static/css/main.906f0871.css",
-    "static/js/main.11475bad.js"
+    "static/js/main.e8f93fad.js"
   ]
 }
