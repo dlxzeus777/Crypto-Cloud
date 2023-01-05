@@ -5,6 +5,7 @@ import trustwallet from '../assets/trustWallet-logo.svg'
 import venly from '../assets/venly-logo.svg'
 import wazirx from '../assets/wazirx-logo.svg'
 import enjin from '../assets/enjin-logo.svg'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
     return (
@@ -14,8 +15,8 @@ const Home = () => {
                     <h1 className='hero-heading'>Discover, Collect & Mint Rare NFTs</h1>
                     <p>Empowers traders, liquidity providers & developers to participate in an open financial marketplace with no barriers to entry.</p>
                     <div className='btns'>
-                        <button className='explore-btn'>Explore</button>
-                        <button className='hiw-btn'>How it works?</button>
+                        <Link to='/marketplace'><button className='explore-btn'>Explore</button></Link>
+                        <Link to='/cryptocurrency'><button className='hiw-btn'>How it works?</button></Link>
                     </div>
                 </div>
                 <div className='hero-image'>
