@@ -14,24 +14,23 @@ const App = () => {
     const [bid, setBid] = useState('');
     const [isBidPlaced, setIsBidPlaced] = useState(false);
 
-    const placeBid = (id) =>
-    {
-        for(let i = 0; i < nfts.length; i++)
-        {
-            let nftId = nfts[i].id
-            if(nftId === id)
-            {
-                setBid(nfts[i].name)
-            }
-        }
-        setIsBidPlaced(true);
+    const placeBid = (id) => {
+        setNfts(current =>
+            current.map(nft => {
+              if (nft.id === id) {
+                setBid(nft.name)
+                return {...nft, bidPlaced:true};
+              }
+      
+              return nft;
+            }),
+          );
 
-        setTimeout(() =>
-        {
+        setIsBidPlaced(true);
+        setTimeout(() => {
             setIsBidPlaced(false);
-        }, 2000);
-        
-    }
+        }, 7000);
+    };
 
     return (
         <>

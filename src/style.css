@@ -286,6 +286,19 @@ nav{
 {
     background-position: right;
 }
+.bidplaced-btn
+{
+    padding: .7rem 1rem;
+    border: none;
+    font-size: 1rem;
+    border-radius: 7px;
+    font-family: inherit;
+    color: white;
+    background-color: rgb(23, 167, 23);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
 .etherium:hover
 {
     cursor: pointer;

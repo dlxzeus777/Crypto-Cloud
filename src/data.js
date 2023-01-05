@@ -26,7 +26,8 @@ export const nftCards = [
         image: nft1,
         user: '@apecreator',
         userImage: apecreator,
-        eth: 1.25
+        eth: 1.25,
+        bidPlaced: false,
     },
     {
         id: 2,
@@ -34,7 +35,8 @@ export const nftCards = [
         image: nft2,
         user: '@larvartist',
         userImage: larvartist,
-        eth: 0.52
+        eth: 0.52,
+        bidPlaced: false,
     },
     {
         id: 3,
@@ -42,7 +44,8 @@ export const nftCards = [
         image: nft3,
         user: '@apecreator',
         userImage: apecreator,
-        eth: 0.75
+        eth: 0.75,
+        bidPlaced: false,
     },
     {
         id: 4,
@@ -50,7 +53,8 @@ export const nftCards = [
         image: nft4,
         user: '@larvartist',
         userImage: larvartist,
-        eth: 1
+        eth: 1,
+        bidPlaced: false,
     },
     {
         id: 5,
@@ -58,7 +62,8 @@ export const nftCards = [
         image: nft5,
         user: '@hypebeast',
         userImage: hypebeast,
-        eth: 1.8
+        eth: 1.8,
+        bidPlaced: false,
     },
     {
         id: 6,
@@ -66,7 +71,8 @@ export const nftCards = [
         image: nft6,
         user: '@larvartist',
         userImage: larvartist,
-        eth: 2.9
+        eth: 2.9,
+        bidPlaced: false,
     },
     {
         id: 7,
@@ -74,7 +80,8 @@ export const nftCards = [
         image: nft7,
         user: '@nftartist',
         userImage: nftartist,
-        eth: 1.2
+        eth: 1.2,
+        bidPlaced: false,
     },
     {
         id: 8,
@@ -82,7 +89,8 @@ export const nftCards = [
         image: nft8,
         user: '@larvartist',
         userImage: larvartist,
-        eth: 5.5
+        eth: 5.5,
+        bidPlaced: false,
     },
     {
         id: 9,
@@ -90,7 +98,8 @@ export const nftCards = [
         image: nft9,
         user: '@apecreator',
         userImage: apecreator,
-        eth: 4
+        eth: 4,
+        bidPlaced: false,
     },
     {
         id: 10,
@@ -98,7 +107,8 @@ export const nftCards = [
         image: nft10,
         user: '@hypebeast',
         userImage: hypebeast,
-        eth: 80
+        eth: 80,
+        bidPlaced: false,
     },
     {
         id: 11,
@@ -106,7 +116,8 @@ export const nftCards = [
         image: nft11,
         user: '@nftartist',
         userImage: nftartist,
-        eth: 5.4
+        eth: 5.4,
+        bidPlaced: false,
     },
     {
         id: 12,
@@ -114,7 +125,8 @@ export const nftCards = [
         image: nft12,
         user: '@larvartist',
         userImage: larvartist,
-        eth: 3.1
+        eth: 3.1,
+        bidPlaced: false,
     },
     {
         id: 13,
@@ -122,7 +134,8 @@ export const nftCards = [
         image: nft13,
         user: '@nftartist',
         userImage: nftartist,
-        eth: 3.5
+        eth: 3.5,
+        bidPlaced: false,
     },
     {
         id: 14,
@@ -130,7 +143,8 @@ export const nftCards = [
         image: nft14,
         user: '@larvartist',
         userImage: larvartist,
-        eth: 1
+        eth: 1,
+        bidPlaced: false,
     },
     {
         id: 15,
@@ -138,7 +152,8 @@ export const nftCards = [
         image: nft15,
         user: '@apecreator',
         userImage: apecreator,
-        eth: 12
+        eth: 12,
+        bidPlaced: false,
     },
     {
         id: 16,
@@ -146,6 +161,7 @@ export const nftCards = [
         image: nft16,
         user: '@hypebeast',
         userImage: hypebeast,
-        eth: 3
+        eth: 3,
+        bidPlaced: false,
     },
 ]
