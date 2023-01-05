@@ -1,0 +1,440 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+body
+{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(125deg,#05020a 50%,#431c54);
+    min-height: 100vh;
+    color: white;
+}
+/* ************************** HEADER START ************************** */
+.font-gradient
+{
+    background: linear-gradient(89.84deg,#505bda 1.44%,#6752e1 20.14%,#8446eb 58.06%,#985af2 84.04%,#bf81ff 99.45%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+.nav-list
+{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+.logo
+{
+    text-decoration: none;
+    color: inherit;
+}
+.nav-list > li
+{
+    cursor: pointer;
+}
+.nav-items:hover
+{
+    color: rgba(199, 199, 199, 0.753);
+    transition: color .2s linear;
+}
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header
+{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: .5rem;
+}
+.nav-items
+{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+@media (max-width: 568px)
+{
+    .nav-heading
+{
+    display: none;
+}
+nav{
+    justify-content: center;
+}
+}
+@media (max-width: 350px)
+{
+    .nav-items
+    {
+        font-size: .8rem;
+    }
+    .nav-list
+    {
+        gap: .7rem;
+    }
+}
+
+/* ************************** HEADER END ************************** */
+
+
+/* ************************** HOME PAGE START ************************** */
+
+.home-container
+{
+    width: 95%;
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+}
+.hero-text
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.hero-image
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-img
+{
+    max-width: 100%;
+}
+.hero-heading
+{
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+.explore-btn
+{
+    padding: .5rem 3.5rem;
+    border: none;
+    font-size: 1rem;
+    border-radius: 7px;
+    margin-right: 1rem;
+    font-family: inherit;
+    color: white;
+    background: linear-gradient(89.84deg,#505bda 1.44%,#6752e1 20.14%,#8446eb 58.06%,#985af2 84.04%,#bf81ff 99.45%);
+    background-size: 300%;
+    background-position: left;
+    cursor: pointer;
+    transition: background-position .5s linear;
+}
+.explore-btn:hover,
+.explore-btn:focus
+{
+    background-position: right;
+}
+
+.hiw-btn
+{
+    padding: .5rem 3rem;
+    border: none;
+    font-size: 1rem;
+    border-radius: 7px;
+    font-family: inherit;
+    background: inherit;
+    color: white;
+    border: 1px solid #8446eb;
+    cursor: pointer;
+}
+.hiw-btn:hover
+{
+    color: rgba(199, 199, 199, 0.753);
+}
+.sponsors
+{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+.sponsors-container
+{
+    width: 95%;
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+
+@media (max-width: 920px)
+{
+    .sponsors-container
+    {
+        max-width: 95%;
+    }
+    .home-container
+    {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .sponsors-img
+    {
+        display: none;
+    }
+    .hero-text{
+        text-align: center;
+        max-width: 95%;
+        align-items: center;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 430px)
+{
+    .btns{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .explore-btn
+    {
+        margin-right: 0;
+    }
+    .hero-heading
+    {
+        font-size: 2.5rem;
+    }
+    .hero-image
+    {
+        max-width: 95%;
+        margin: 0 auto;
+    }
+}
+/* ************************** HOME PAGE END ************************** */
+
+/* ************************** MARKETPLACE PAGE START ************************** */
+
+.marketplace-container
+{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.marketplace-heading
+{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.cards
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    row-gap: 1.5rem;
+    padding-bottom: 1rem;
+}
+.card:last-child
+{
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+.card{
+    background: linear-gradient(90deg, #0D324D,#7F5A83);
+    border-radius: 15px;
+}
+.card-texts
+{
+    padding: 1rem;
+}
+.card-texts > *
+{
+    margin: 0;
+}
+.user-image-name
+{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.eth{
+    display: flex;
+    gap: .2rem;
+    align-items: center;
+}
+.eth-and-buttons
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.placebid-btn
+{
+    padding: .7rem 1rem;
+    border: none;
+    font-size: 1rem;
+    border-radius: 7px;
+    font-family: inherit;
+    color: white;
+    background: linear-gradient(89.84deg,#505bda 1.44%,#6752e1 20.14%,#8446eb 58.06%,#985af2 84.04%,#bf81ff 99.45%);
+    background-size: 300%;
+    background-position: left;
+    cursor: pointer;
+    transition: background-position .5s linear;
+}
+.placebid-btn:hover,
+.placebid-btn:focus
+{
+    background-position: right;
+}
+.etherium:hover
+{
+    cursor: pointer;
+    color: #6752e1;
+    transition: all .2s linear;
+}
+.overlay
+{
+    opacity: 1;
+}
+.overlay:hover
+{
+    opacity: .3;
+    position: relative;
+    cursor: pointer;
+}
+.eye
+{
+    position: absolute;
+    top: 40%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-size: 5rem;
+}
+
+@media (max-width: 930px)
+{
+    .cards
+    {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media (max-width: 620px)
+{
+    .cards
+    {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .card:last-child
+{
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+}
+@media (max-width: 340px)
+{
+    .card{
+        max-width: 95%;
+    }
+    .card img{
+        max-width: 100%;
+    }
+}
+
+/* ************************** MARKETPLACE PAGE END ************************** */
+
+
+/* ************************** CRYPTOCURRENCY PAGE START ************************** */
+
+.crypto-container
+{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.crypto{
+    border: 1px solid white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.crypto-symbol
+{
+    text-transform: uppercase;
+    margin-left: .25rem;
+}
+.crypto-logo
+{
+    width: 55px;
+}
+.crypto-name-logo
+{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.price{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.popular-cryptos
+{
+    font-size: 3rem;
+    text-align: center;
+}
+.form
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 7rem;
+}
+input{
+    padding: 1rem;
+    border: 3px solid white;
+    border-radius: 30px;
+    max-width: 25rem;
+    width: 100%;
+    background: transparent;
+    color: white;
+    font-family: inherit;
+    font-size: 1.2rem;
+}
+input:active,
+input:focus
+{
+    outline: none;
+}
+.coins
+{
+    max-width: 95%;
+    margin: 0 auto;
+}
+@media (max-width: 450px)
+{
+    .crypto
+    {
+        flex-direction: column;
+    }
+    .crypto-name-logo
+    {
+        flex-direction: column;
+    }
+    .crypto-name{
+        text-align: center;
+    }
+    .marketcap
+    {
+        display: none;
+    }
+    input::placeholder
+    {
+        font-size: 1rem;
+    }
+    .popular-cryptos
+    {
+        font-size: 1.5rem;
+    }
+}
