@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/Crypto-Cloud/static/css/main.906f0871.css",
+    "main.js": "/Crypto-Cloud/static/js/main.11475bad.js",
+    "static/media/hero.svg": "/Crypto-Cloud/static/media/hero.e4ca1ff3e7a456646e47f613d4bdb836.svg",
+    "static/media/larvartist.svg": "/Crypto-Cloud/static/media/larvartist.89ea089526db1e07f5996e15ee80d112.svg",
+    "static/media/nft14.png": "/Crypto-Cloud/static/media/nft14.b1e3c8506f63c300751d.png",
+    "static/media/nft12.png": "/Crypto-Cloud/static/media/nft12.f990602678d6ade95826.png",
+    "static/media/nft2.png": "/Crypto-Cloud/static/media/nft2.c4a9cfdbfad72666d192.png",
+    "static/media/nft5.png": "/Crypto-Cloud/static/media/nft5.b99bc891963d3c80f90b.png",
+    "static/media/nft6.png": "/Crypto-Cloud/static/media/nft6.5838b1cd0bf018d45dfc.png",
+    "static/media/nft11.png": "/Crypto-Cloud/static/media/nft11.c711c12e9d38c3a2b57d.png",
+    "static/media/nft7.png": "/Crypto-Cloud/static/media/nft7.6667cf6c4f89c889fd67.png",
+    "static/media/nft4.png": "/Crypto-Cloud/static/media/nft4.d6c7ecf3c879dd09e8f6.png",
+    "static/media/nft13.png": "/Crypto-Cloud/static/media/nft13.c5ce5c28717562319c82.png",
+    "static/media/nft16.png": "/Crypto-Cloud/static/media/nft16.9c4f35edeef4023b3d0f.png",
+    "static/media/nft9.png": "/Crypto-Cloud/static/media/nft9.31eacdfe25149f48a472.png",
+    "static/media/nft10.png": "/Crypto-Cloud/static/media/nft10.977a200728abe6b724e4.png",
+    "static/media/nft3.png": "/Crypto-Cloud/static/media/nft3.719c88a3d344ff81c35f.png",
+    "static/media/nft15.png": "/Crypto-Cloud/static/media/nft15.4dbdd3912526c38fab94.png",
+    "static/media/nft8.png": "/Crypto-Cloud/static/media/nft8.2d3cfd9bf64122dc0af4.png",
+    "static/media/nft1.png": "/Crypto-Cloud/static/media/nft1.a20b824d01a0583d1c64.png",
+    "static/media/venly-logo.svg": "/Crypto-Cloud/static/media/venly-logo.e0656eafe6a12f4bef0d82a80ed435f7.svg",
+    "static/media/wazirx-logo.svg": "/Crypto-Cloud/static/media/wazirx-logo.5d92935a8bcee9b7a90adf5880b10ff2.svg",
+    "static/media/openSea-logo.svg": "/Crypto-Cloud/static/media/openSea-logo.b96619512e46850e1886be4108fdd94c.svg",
+    "static/media/enjin-logo.svg": "/Crypto-Cloud/static/media/enjin-logo.9d9ac7a91d527226e633bfb3227afdce.svg",
+    "static/media/trustWallet-logo.svg": "/Crypto-Cloud/static/media/trustWallet-logo.6af12e3604c1aea338c8a808803940e8.svg",
+    "static/media/nftartist.svg": "/Crypto-Cloud/static/media/nftartist.340ceafeecc1cce32260f269a3c8f01f.svg",
+    "static/media/apecreator.svg": "/Crypto-Cloud/static/media/apecreator.6a433d771b572daacbaf6a006da7223c.svg",
+    "static/media/hypebeast.svg": "/Crypto-Cloud/static/media/hypebeast.ad8897afe03c53ea8792997ca0084588.svg",
+    "index.html": "/Crypto-Cloud/index.html",
+    "main.906f0871.css.map": "/Crypto-Cloud/static/css/main.906f0871.css.map",
+    "main.11475bad.js.map": "/Crypto-Cloud/static/js/main.11475bad.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.906f0871.css",
+    "static/js/main.11475bad.js"
+  ]
+}
