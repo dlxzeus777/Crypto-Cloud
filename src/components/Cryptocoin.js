@@ -1,12 +1,12 @@
 import React from 'react'
 
-const Cryptocoin = ({ key, name, price, symbol, marketcap, volume, image, priceChange }) => {
+const Cryptocoin = ({ key, name, price, symbol, marketcap, image }) => {
     const market = marketcap.toLocaleString();
     return (
         <div key={key} className='crypto-container'>
             <div className='crypto'>
                 <div className='crypto-name-logo'>
-                    <img src={image} className='crypto-logo' alt='cryptos'/>
+                    <img src={image} className='crypto-logo' alt='cryptos' />
                     <div className='crypto-name'>
                         {name}
                         <span className='crypto-symbol'>({symbol})</span>
