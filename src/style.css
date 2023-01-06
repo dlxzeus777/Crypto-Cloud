@@ -27,7 +27,7 @@ body
 .logo
 {
     text-decoration: none;
-    color: inherit;
+    color: white !important;
 }
 .nav-list > li
 {
@@ -55,6 +55,9 @@ header
     text-decoration: none;
     color: white;
     font-weight: bold;
+}
+.active{
+    color: rgba(199, 199, 199, 0.753);;
 }
 @media (max-width: 568px)
 {
