@@ -96,6 +96,7 @@ nav{
     align-items: center;
     justify-content: center;
     gap: 10rem;
+    background: url(./assets/stars.svg);
 }
 .hero-text
 {
