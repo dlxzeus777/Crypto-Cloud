@@ -37,7 +37,7 @@ const App = () => {
         setNfts(current =>
             current.filter(nft =>
             {
-                return nft.id !== id;
+                return !nft.bidPlaced ? nft.id !== id : nft
             }))
     }
 

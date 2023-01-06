@@ -233,11 +233,6 @@ nav{
     row-gap: 1.5rem;
     padding-bottom: 1rem;
 }
-.card:last-child
-{
-    grid-column-start: 2;
-    grid-column-end: 2;
-}
 .card{
     background: linear-gradient(90deg, #0D324D,#7F5A83);
     border-radius: 15px;
@@ -341,11 +336,6 @@ nav{
     {
         grid-template-columns: repeat(1,1fr);
     }
-    .card:last-child
-{
-    grid-column-start: 1;
-    grid-column-end: 1;
-}
 }
 @media (max-width: 410px)
 {
