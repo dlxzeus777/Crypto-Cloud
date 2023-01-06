@@ -241,6 +241,7 @@ nav{
 .card{
     background: linear-gradient(90deg, #0D324D,#7F5A83);
     border-radius: 15px;
+    position: relative;
 }
 .card-texts
 {
@@ -313,6 +314,17 @@ nav{
     padding: 1rem;
     border: 1px solid white;
     border-radius: 7px;
+}
+.trash-icon
+{
+    position: absolute;
+    right: .5rem;
+    top: .5rem;
+    padding: .5rem;
+    background-color: red;
+    border-radius: 7px;
+    filter: drop-shadow(2px 2px 3px black);
+    cursor: pointer;
 }
 
 @media (max-width: 930px)

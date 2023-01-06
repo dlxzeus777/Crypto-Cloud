@@ -28,6 +28,7 @@ export const nftCards = [
         userImage: apecreator,
         eth: 1.25,
         bidPlaced: false,
+        isHovering: false,
     },
     {
         id: 2,
@@ -37,6 +38,7 @@ export const nftCards = [
         userImage: larvartist,
         eth: 0.52,
         bidPlaced: false,
+        isHovering: false,
     },
     {
         id: 3,
@@ -46,6 +48,7 @@ export const nftCards = [
         userImage: apecreator,
         eth: 0.75,
         bidPlaced: false,
+        isHovering: false,
     },
     {
         id: 4,
@@ -55,6 +58,7 @@ export const nftCards = [
         userImage: larvartist,
         eth: 1,
         bidPlaced: false,
+        isHovering: false,
     },
     {
         id: 5,
@@ -64,6 +68,7 @@ export const nftCards = [
         userImage: hypebeast,
         eth: 1.8,
         bidPlaced: false,
+        isHovering: false,
     },
     {
         id: 6,
@@ -73,6 +78,7 @@ export const nftCards = [
         userImage: larvartist,
         eth: 2.9,
         bidPlaced: false,
+        isHovering: false,
     },
     {
         id: 7,
@@ -82,6 +88,7 @@ export const nftCards = [
         userImage: nftartist,
         eth: 1.2,
         bidPlaced: false,
+        isHovering: false,
     },
     {
         id: 8,
@@ -91,6 +98,7 @@ export const nftCards = [
         userImage: larvartist,
         eth: 5.5,
         bidPlaced: false,
+        isHovering: false,
     },
     {
         id: 9,
@@ -100,6 +108,7 @@ export const nftCards = [
         userImage: apecreator,
         eth: 4,
         bidPlaced: false,
+        isHovering: false,
     },
     {
         id: 10,
@@ -109,6 +118,7 @@ export const nftCards = [
         userImage: hypebeast,
         eth: 80,
         bidPlaced: false,
+        isHovering: false,
     },
     {
         id: 11,
@@ -118,6 +128,7 @@ export const nftCards = [
         userImage: nftartist,
         eth: 5.4,
         bidPlaced: false,
+        isHovering: false,
     },
     {
         id: 12,
@@ -127,6 +138,7 @@ export const nftCards = [
         userImage: larvartist,
         eth: 3.1,
         bidPlaced: false,
+        isHovering: false,
     },
     {
         id: 13,
@@ -136,6 +148,7 @@ export const nftCards = [
         userImage: nftartist,
         eth: 3.5,
         bidPlaced: false,
+        isHovering: false,
     },
     {
         id: 14,
@@ -145,6 +158,7 @@ export const nftCards = [
         userImage: larvartist,
         eth: 1,
         bidPlaced: false,
+        isHovering: false,
     },
     {
         id: 15,
@@ -154,6 +168,7 @@ export const nftCards = [
         userImage: apecreator,
         eth: 12,
         bidPlaced: false,
+        isHovering: false,
     },
     {
         id: 16,
@@ -163,5 +178,6 @@ export const nftCards = [
         userImage: hypebeast,
         eth: 3,
         bidPlaced: false,
+        isHovering: false,
     },
 ]
