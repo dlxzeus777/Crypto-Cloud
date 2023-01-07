@@ -44,7 +44,7 @@ const Marketplace = ({ nfts, placeBid, bid, isBidPlaced, handleDelete, createNew
           required
         />
         <input
-          type='text'
+          type='number'
           placeholder='Etherium'
           name='eth'
           onChange={handleChange}
