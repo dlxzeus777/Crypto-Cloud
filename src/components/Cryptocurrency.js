@@ -25,29 +25,29 @@ const Cryptocurrency = () => {
         crypto.name.toLowerCase().includes(input.toLowerCase())
     );
 
-        return (
-            <>
-                <h1 className='popular-cryptos'>Popular Cryptos</h1>
-                <div className='coins'>
-                    <form className='form'>
-                        <input type='text' placeholder='Search a cryptocurrency' value={input} onChange={handleChange} />
-                    </form>
-                    {filteredCoins.map(crypto => {
-                        return (
-                            <Cryptocoin
-                                key={crypto.key}
-                                name={crypto.name}
-                                price={crypto.current_price}
-                                symbol={crypto.symbol}
-                                marketcap={crypto.total_volume}
-                                volume={crypto.market_cap}
-                                image={crypto.image}
-                                priceChange={crypto.price_change_percentage_24h}
-                            />
-                        )
-                    })}</div>
-            </>
-        )
-    }
+    return (
+        <>
+            <h1 className='popular-cryptos'>Popular Cryptos</h1>
+            <div className='coins'>
+                <form className='form' onSubmit={(e) => e.preventDefault()}>
+                    <input type='text' placeholder='Search a cryptocurrency' value={input} onChange={handleChange} />
+                </form>
+                {filteredCoins.map(crypto => {
+                    return (
+                        <Cryptocoin
+                            key={crypto.key}
+                            name={crypto.name}
+                            price={crypto.current_price}
+                            symbol={crypto.symbol}
+                            marketcap={crypto.total_volume}
+                            volume={crypto.market_cap}
+                            image={crypto.image}
+                            priceChange={crypto.price_change_percentage_24h}
+                        />
+                    )
+                })}</div>
+        </>
+    )
+}
 
 export default Cryptocurrency

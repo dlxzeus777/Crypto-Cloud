@@ -11,13 +11,13 @@ const Cards = ({ nfts, placeBid, handleDelete }) => {
                 const { name, image, user, userImage, eth, id, bidPlaced, } = nft
                 return (
                     <div className='card' key={id}>
-                        <BsFillTrashFill className='trash-icon' onClick={() => handleDelete(id)}/>
-                        <img src={image} alt='nft' />
+                        <BsFillTrashFill className='trash-icon' onClick={() => handleDelete(id)} />
+                        <img src={image} alt='nft' className='nft-image' />
                         <div className='card-texts'>
                             <h3>{name}</h3>
                             <div className='user-image-name'>
-                                <img src={userImage} alt='user-profile' />
-                                <p>{user}</p>
+                                <img src={userImage} alt='user-profile' className='nft-user-image' />
+                                <p>@{user}</p>
                             </div>
                             <div className='eth-and-buttons'>
                                 <div className='eth'>
