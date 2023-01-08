@@ -362,7 +362,7 @@ nav{
     font-size: 1rem;
     font-family: inherit;
     color: white;
-    background: #8446eb;
+    background: linear-gradient(89.84deg,#505bda,#6752e1);
     position: relative;
     z-index: 1;
     cursor: pointer;
@@ -375,13 +375,14 @@ nav{
     width: 100%;
     left: 0;
     top: 0;
-    background: #6752e1;
+    background: linear-gradient(89.84deg,#985af2,#bf81ff);
     z-index: -1;
     transform: scaleY(0);
     transform-origin: bottom;
     transition: transform .25s linear;
 }
-.add-nft-btn:hover::after
+.add-nft-btn:hover::after,
+.add-nft-btn:focus::after
 {
     transform-origin: top;
     transform: scaleY(1);
@@ -423,11 +424,124 @@ input::-webkit-inner-spin-button {
 /* Firefox */
 input[type=number] {
   -moz-appearance: textfield;
+  appearance: textfield;
 }
 input::placeholder
 {
     color: white;
 }
+.popup {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, #0D324D,#7F5A83);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 1em;
+    width: 80%;
+    max-width: 400px;
+    z-index: 10;
+    color: white;
+    border-radius: 7px;
+    text-align: center;
+    animation: scaleUp .2s linear;
+  }
+
+  @keyframes scaleUp
+  {
+    0% {transform: scale(0);}
+    100% {transform: scale(1);}
+  }
+  
+  .popup-overlay {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9;
+  }
+  
+  .popup-close-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+  }
+  .popup-btns
+  {
+    text-align: center;
+  }
+  .popup-btn
+  {
+    padding: .5rem 2rem;
+    border: none;
+    color: white;
+    filter: drop-shadow(1px 1px 2px black);
+    cursor: pointer;
+  }
+  .yes-btn
+  {
+    margin-right: .5rem;
+    background: #5cb85c;
+    position: relative;
+    z-index: 1;
+  }
+  .yes-btn::after
+  {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(32, 121, 0);
+    z-index: -1;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .25s linear;
+  }
+  .yes-btn:hover::after
+  {
+    transform-origin: left;
+    transform: scaleX(1);
+    transition: transform .25s linear;
+  }
+  .no-btn
+  {
+    background: #d9534f;
+    position: relative;
+    z-index: 1;
+  }
+  .no-btn::after
+  {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(133, 0, 0);
+    z-index: -1;
+    transform-origin: top;
+    transform: scaleY(0);
+    transition: transform .25s linear;
+  }
+  .no-btn:hover::after
+  {
+    transform-origin: bottom;
+    transform: scaleY(1);
+    transition: transform .25s linear;
+  }
+
 @media (max-width: 930px)
 {
     .cards

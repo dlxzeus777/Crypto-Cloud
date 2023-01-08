@@ -3,15 +3,14 @@ import { FaEthereum } from 'react-icons/fa'
 import { AiOutlineCheck } from 'react-icons/ai'
 import { BsFillTrashFill } from 'react-icons/bs'
 
-const Cards = ({ nfts, placeBid, handleDelete }) => {
-    console.log(nfts)
+const Cards = ({ nfts, placeBid, popupShow }) => {
     return (
         <div className='cards'>
             {nfts.map(nft => {
                 const { name, image, user, userImage, eth, id, bidPlaced, } = nft
                 return (
                     <div className='card' key={id}>
-                        <BsFillTrashFill className='trash-icon' onClick={() => handleDelete(id)} />
+                        {bidPlaced ? '' : <BsFillTrashFill className='trash-icon' onClick={() => popupShow(id)} />}
                         <img src={image} alt='nft' className='nft-image' />
                         <div className='card-texts'>
                             <h3>{name}</h3>

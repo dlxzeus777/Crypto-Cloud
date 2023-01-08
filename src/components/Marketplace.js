@@ -1,7 +1,8 @@
 import React from 'react'
 import Cards from './Cards'
+import Popup from './Popup'
 
-const Marketplace = ({ nfts, placeBid, bid, isBidPlaced, handleDelete, createNewNFT, handleNFTImage, handleUserImage, handleChange, inputs }) => {
+const Marketplace = ({ nfts, placeBid, bid, isBidPlaced, handleDelete, createNewNFT, handleNFTImage, handleUserImage, handleChange, inputs, showPopup, useOutsideAlerter, popupShow, popupClose, popupValues }) => {
 
   return (
     <div className='marketplace-container'>
@@ -54,7 +55,8 @@ const Marketplace = ({ nfts, placeBid, bid, isBidPlaced, handleDelete, createNew
         <button className='add-nft-btn'>Add your NFT</button>
       </form>
       <h1 className='marketplace-heading'>Hot Drops 🔥</h1>
-      <Cards nfts={nfts} placeBid={placeBid} handleDelete={handleDelete} />
+      <Cards nfts={nfts} placeBid={placeBid} popupShow={popupShow}/>
+      {showPopup && <Popup useOutsideAlerter={useOutsideAlerter} handleDelete={handleDelete} popupClose={popupClose} popupValues={popupValues}/>}
     </div>
   )
 }
