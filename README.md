@@ -14,7 +14,7 @@
 
 - Users of the app have the ability to place bids on items that are up for auction. Once a bid has been placed, the user is not able to delete the item.
 - Users can search for different cryptocurrencies.
-- You can create your own NFT: you just have to upload the NFT Image, give your NFT a name, upload a your user image, write your username, and decide how many etherium do you want your NFT to be worth!
+- Users can create your own NFT: you just have to upload the NFT Image, give your NFT a name, upload a your user image, write your username, and decide how many etherium do you want your NFT to be worth!
 - Implemented a popup section: When the user wants to delete an NFT a section pops up and asks if the user really wants to delete that particular NFT, the user also can click anywhere outside of the popup section to make it disappear.
 
 ## Live site URL:
